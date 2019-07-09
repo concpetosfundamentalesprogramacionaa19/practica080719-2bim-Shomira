@@ -12,8 +12,10 @@ package recursividad;
 public class Principal2 {
 
     public static void main(String[] args) {
+        //Inicializacion de las variables
         int valor = 5;
         int resultado ;
+        //importacion del mètodo de recursividad
         resultado = SumaNumeros.obtenerSumaDos(valor);
         System.out.println(resultado);
     }
